@@ -1,0 +1,117 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "af12df85dd0cd08762dfbe1911f31151",
+    "packages": [
+        {
+            "name": "chatium/php-sdk",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chatium/php-sdk.git",
+                "reference": "fd16378bb895f2e9fb0272211bc6bc7c24c5a743"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chatium/php-sdk/zipball/fd16378bb895f2e9fb0272211bc6bc7c24c5a743",
+                "reference": "fd16378bb895f2e9fb0272211bc6bc7c24c5a743",
+                "shasum": ""
+            },
+            "require": {
+                "firebase/php-jwt": "dev-master",
+                "php": ">=5.3.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Chatium": "src/"
+                },
+                "files": [
+                    "src/Chatium/Blocks.php",
+                    "src/Chatium/Responses.php",
+                    "src/Chatium/Actions.php",
+                    "src/Chatium/Context.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Chatium Team",
+                    "email": "hello@chatium.com"
+                },
+                {
+                    "name": "Aleksandr Galchenkov",
+                    "email": "galchenkov@gmail.com"
+                }
+            ],
+            "description": "Chatium SDK for PHP developers",
+            "time": "2020-10-16T10:57:12+00:00"
+        },
+        {
+            "name": "firebase/php-jwt",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/firebase/php-jwt.git",
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/firebase/php-jwt/zipball/feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "reference": "feb0e820b8436873675fd3aca04f3728eb2185cb",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": ">=4.8 <=9"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Firebase\\JWT\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Neuman Vong",
+                    "email": "neuman+pear@twilio.com",
+                    "role": "Developer"
+                },
+                {
+                    "name": "Anant Narayanan",
+                    "email": "anant@php.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "A simple library to encode and decode JSON Web Tokens (JWT) in PHP. Should conform to the current spec.",
+            "homepage": "https://github.com/firebase/php-jwt",
+            "keywords": [
+                "jwt",
+                "php"
+            ],
+            "time": "2020-03-25T18:49:23+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {
+        "chatium/php-sdk": 20
+    },
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": "^7.3",
+        "ext-json": "*"
+    },
+    "platform-dev": []
+}
